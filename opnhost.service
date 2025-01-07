@@ -1,0 +1,11 @@
+[Unit]
+Description=OpnHost
+
+[Service]
+User=root
+WorkingDirectory=/OpnHost
+User=root
+ExecStart=/OpnHost/opnhosts
+
+[Install]
+WantedBy=multi-user.target
